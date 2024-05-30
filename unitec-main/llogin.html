@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+
+    <nav>
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="#">Contato</a>
+        </div>
+    </nav>
+
+    <video autoplay muted loop id="background-video">
+        <source src="IMG/unitec11.mp4" type="video/mp4">
+    </video>
+
+    <div class="login-container">
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" name="username" placeholder="Usuário" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="error-message" class="msg_erro"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
